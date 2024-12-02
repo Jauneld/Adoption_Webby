@@ -41,3 +41,7 @@ header .btn-primary:hover {
   max-width:100px;
   max-height:100px;
 }
+
+nav{
+  background-color:#FFF0CB;
+}
