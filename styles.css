@@ -1,0 +1,43 @@
+header {
+  background-color: #f8f9fa;
+}
+
+header .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+header .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  color: white;
+}
+
+.profile {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "image name"
+    "image description";
+  max-width: 55ch;
+  padding: var(--size-400);
+}
+
+.profile__image {
+  /*   border-top-left-radius: 1rem 4rem; */
+  border-radius: 65% 35% 77% 23% / 73% 20% 80% 27% ;
+
+  grid-area: image;
+}
+
+.logo{
+  max-width:100px;
+  max-height:100px;
+}
