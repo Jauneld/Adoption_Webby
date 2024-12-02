@@ -26,8 +26,8 @@ header .btn-primary:hover {
   grid-template-areas:
     "image name"
     "image description";
-  max-width: 20ch;
-  padding: var(--size-400);
+  max-width: 25%;
+  padding: var(--size-200);
 }
 
 .profile__image {
@@ -43,5 +43,5 @@ header .btn-primary:hover {
 }
 
 nav{
-  background-color:#FFF0CB;
+  background-color: #FFF0CB;
 }
