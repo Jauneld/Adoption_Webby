@@ -26,7 +26,7 @@ header .btn-primary:hover {
   grid-template-areas:
     "image name"
     "image description";
-  max-width: 55ch;
+  max-width: 20ch;
   padding: var(--size-400);
 }
 
