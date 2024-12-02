@@ -26,14 +26,13 @@ header .btn-primary:hover {
   grid-template-areas:
     "image name"
     "image description";
-  max-width: 25%;
   padding: var(--size-200);
 }
 
 .profile__image {
   /*   border-top-left-radius: 1rem 4rem; */
   border-radius: 65% 35% 77% 23% / 73% 20% 80% 27% ;
-
+  max-width: 100%;
   grid-area: image;
 }
 
