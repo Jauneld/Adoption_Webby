@@ -29,11 +29,15 @@ header .btn-primary:hover {
   padding: var(--size-200);
 }
 
-.profile__image {
+.profile__image{
   /*   border-top-left-radius: 1rem 4rem; */
   border-radius: 65% 35% 77% 23% / 73% 20% 80% 27% ;
-  max-width: 100%;
+  transition: border-radius 500ms ease-in-out;
   grid-area: image;
+}
+
+.profile__image:hover{
+   border-radius: 30% 70% 75% 25% / 63% 30% 70% 37%  ;
 }
 
 .logo{
