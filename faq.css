@@ -1,0 +1,27 @@
+.faq-section {
+  background-color: #f8d77e;
+  padding: 50px 0;
+}
+
+.accordion-button {
+  background-color: #ab8efa;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #5d3fd3;
+  color: white;
+}
+
+.accordion-body {
+  background-color: #fdf6e4;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 20px;
+}
