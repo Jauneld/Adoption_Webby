@@ -50,7 +50,10 @@ nav{
 }
 
 .strokeme {
-  color: white;
-  background-color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 100px;
+  font-family: serif;
+  /*text-align: center;*/
+  color: #4C7031;
+   text-shadow: -1px -1px 0 #F2AE1C, 1px -1px 0 #F2AE1C, 1px 1px 0 #F2AE1C,
+    1px 1px 0 #F2AE1C;
 }
