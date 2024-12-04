@@ -1,0 +1,162 @@
+/* Rounded square background for hero section */
+.rounded-background {
+  background-color: #f8d77e; /* Background color */
+  border-radius: 20px; /* Rounded corners */
+  padding: 20px; /* Spacing around content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  position: relative;
+}
+
+.rounded-background h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.rounded-background p {
+  font-size: 1rem;
+  color: #34495e;
+  line-height: 1.6;
+}
+
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fdf6e4;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+  padding: 20px 0;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5d3fd3;
+}
+.nav-link {
+  font-size: 1rem;
+  color: #333;
+}
+.nav-link:hover {
+  color: #5d3fd3;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #fcf5d4;
+}
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+.btn-learn-more {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ab8efa;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 30px;
+}
+.btn-learn-more:hover {
+  background-color: #5d3fd3;
+}
+
+/* Image Section */
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.additional-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Carousel Indicators */
+.carousel-indicators button {
+  background-color: #5d3fd3;
+}
+
+/* Carousel Section */
+.carousel-section {
+  padding: 50px 0;
+  background-color: #f8d77e;
+  text-align: center;
+}
+.carousel-inner img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #6c4f25;
+  border-radius: 50%;
+}
+h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Shop Now Button */
+.btn-shop-now {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #678d58;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 30px;
+}
+.btn-shop-now:hover {
+  background-color: #4c6b3f;
+}
+
+/* Container for each carousel item */
+.carousel-item-container {
+  position: relative;
+}
+
+/* Style the text that will appear over the image */
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-text h4 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.carousel-text p {
+  font-size: 1rem;
+  margin: 5px 0 0 0;
+}
+
+/* Adjust the carousel images */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
