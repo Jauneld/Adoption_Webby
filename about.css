@@ -10,13 +10,13 @@
 }
 
 .rounded-background h1 {
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: bold;
   color: #2c3e50;
 }
 
 .rounded-background p {
-  font-size: 0.5rem;
+  font-size: 0.25rem;
   color: #34495e;
   line-height: 1.6;
 }
