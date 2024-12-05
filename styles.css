@@ -57,3 +57,7 @@ nav{
    text-shadow: -1px -1px 0 #F2AE1C, 1px -1px 0 #F2AE1C, 1px 1px 0 #F2AE1C,
     1px 1px 0 #F2AE1C;
 }
+
+.btn{
+  background-color: #f2ae1c;
+}
