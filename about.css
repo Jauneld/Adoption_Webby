@@ -2,20 +2,21 @@
 .rounded-background {
   background-color: #f8d77e; /* Background color */
   border-radius: 20px;/* Rounded corners */
-  width: 50%;
+  width: 100%;
+  height: 50%;
   padding: 20px; /* Spacing around content */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
   position: relative;
 }
 
 .rounded-background h1 {
-  font-size: 2.5rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #2c3e50;
 }
 
 .rounded-background p {
-  font-size: 1rem;
+  font-size: 0.5rem;
   color: #34495e;
   line-height: 1.6;
 }
