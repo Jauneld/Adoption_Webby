@@ -160,3 +160,21 @@ h2 {
   height: auto;
   object-fit: cover;
 }
+
+.logo{
+  max-width:100px;
+  max-height:100px;
+}
+
+nav{
+  background-color: #FFF0CB;
+}
+
+.strokeme {
+  font-size: 50px;
+  font-family: serif;
+  /*text-align: center;*/
+  color: #4C7031;
+   text-shadow: -1px -1px 0 #F2AE1C, 1px -1px 0 #F2AE1C, 1px 1px 0 #F2AE1C,
+    1px 1px 0 #F2AE1C;
+}
