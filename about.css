@@ -2,8 +2,6 @@
 .rounded-background {
   background-color: #f8d77e; /* Background color */
   border-radius: 20px;/* Rounded corners */
-  width: 100%;
-  height: 50%;
   padding: 20px; /* Spacing around content */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
   position: relative;
