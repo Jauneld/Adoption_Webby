@@ -67,3 +67,23 @@ body {
     max-width: 100%;
   }
 }
+
+/* Modal Customization */
+.modal-content {
+  background-color: #fff8e1;
+  border-radius: 10px;
+}
+.modal-title {
+  font-size: 1.5rem;
+  color: #4C7031;
+}
+.modal-body {
+  font-size: 1rem;
+  color: #6c4f25;
+}
+.modal-footer .btn {
+  background-color: #4C7031;
+  color: #fff;
+  border: none;
+}
+
