@@ -15,7 +15,7 @@ header .btn-primary:hover {
 .hero-section {
   height: 100vh; /* Full viewport height */
   width: 100%; /* Full width */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pexels-peter-de-vink-288978-849403.jpg') no-repeat center center/cover;
   color: white;
 }
 
