@@ -15,7 +15,7 @@ header .btn-primary:hover {
 .hero-section {
   height: 100vh; /* Full viewport height */
   width: 100%; /* Full width */
-  background-image: url("pexels-peter-de-vink-288978-849403.jpg") no-repeat center center/cover;
+  background-color: #FFF0CB;
   color: white;
 }
 
