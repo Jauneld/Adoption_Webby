@@ -16,7 +16,7 @@ header .btn-primary:hover {
 .hero-section {
   height: 100vh; /* Full viewport height */
   width: 100%; /* Full width */
-  background-color: #FFF0CB; /* Match navbar */
+  background-color: #f8d77e; /* Match navbar */
   color: #4C7031; /* Match the "strokeme" text or another contrasting color */
   display: flex;
   align-items: center;
